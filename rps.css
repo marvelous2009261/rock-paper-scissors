@@ -1,0 +1,31 @@
+ body{text-align: center;background-color: hsla(240, 80%, 27%, 0.527);}
+ h1{font-size: 50px;font-family: Arial, Helvetica, sans-serif;font-weight: bold;text-align: center;}
+ .game{display: block;float: none;margin-top: 100px;text-align: center;font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;font-weight: bold;}
+
+
+#button1,#button2,#button3{width: 100px;
+    height: 100px;
+    border: none;
+    font-size: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: black;
+color: white;
+justify-content: center;
+margin-right: 20px;}
+.lose{color:red;
+font-weight: bold;
+font-size: 30px;}
+.win{color:green;
+font-weight: bold;
+font-size: 30px;}
+.draw{color:yellow;
+font-weight: bold;
+font-size: 30px;}
+
+
+
+
+#button:hover{background-color: hsla(0, 0%, 0%, 0.801);}
+#button:active{background-color: hsla(0, 0%, 0%, 0.61);}
